@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/devel
+
+Name: my_people_tracker_pkg
+Description: Description of my_people_tracker_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/niner/catkin_ws/devel/lib 
+Requires: 

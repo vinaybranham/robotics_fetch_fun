@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/devel
+
+Name: ecto_openni
+Description: Description of ecto_openni
+Version: 0.4.0
+Cflags: 
+Libs: -L/home/niner/catkin_ws/devel/lib 
+Requires: ecto

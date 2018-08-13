@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/devel
+
+Name: fetch_moveit_config
+Description: Description of fetch_moveit_config
+Version: 0.7.14
+Cflags: 
+Libs: -L/home/niner/catkin_ws/devel/lib 
+Requires: 

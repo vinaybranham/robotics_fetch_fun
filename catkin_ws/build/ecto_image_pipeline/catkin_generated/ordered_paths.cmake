@@ -1,0 +1,1 @@
+set(ORDERED_PATHS "/home/niner/catkin_ws/src/opencv_candidate/include;/home/niner/catkin_ws/src/opencv_candidate/src/rgbd/include;/usr/include/opencv;/usr/include")

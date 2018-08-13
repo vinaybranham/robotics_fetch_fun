@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/devel
+
+Name: ecto_opencv
+Description: Description of ecto_opencv
+Version: 0.6.2
+Cflags: 
+Libs: -L/home/niner/catkin_ws/devel/lib 
+Requires: ecto opencv_candidate cv_backports

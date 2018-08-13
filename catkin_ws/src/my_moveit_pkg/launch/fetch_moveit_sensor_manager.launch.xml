@@ -1,0 +1,3 @@
+<launch>
+<rosparam command="load" file="$(find my_moveit_pkg)/config/sensors_rgbd.yaml" />
+</launch>

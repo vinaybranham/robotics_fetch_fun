@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/install
+
+Name: fetch_arm_control
+Description: Description of fetch_arm_control
+Version: 0.0.8
+Cflags: -I/home/niner/catkin_ws/install/include
+Libs: -L/home/niner/catkin_ws/install/lib 
+Requires: rospy

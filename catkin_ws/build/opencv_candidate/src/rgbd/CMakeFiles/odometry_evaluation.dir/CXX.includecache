@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/niner/catkin_ws/src/opencv_candidate/src/rgbd/include/opencv2/rgbd/rgbd.hpp
+limits
+-
+opencv2/core/core.hpp
+-
+opencv2/core/types_c.h
+-
+
+/home/niner/catkin_ws/src/opencv_candidate/src/rgbd/samples/odometry_evaluation.cpp
+opencv2/rgbd/rgbd.hpp
+-
+opencv2/highgui/highgui.hpp
+/home/niner/catkin_ws/src/opencv_candidate/src/rgbd/samples/opencv2/highgui/highgui.hpp
+opencv2/contrib/contrib.hpp
+/home/niner/catkin_ws/src/opencv_candidate/src/rgbd/samples/opencv2/contrib/contrib.hpp
+opencv2/calib3d/calib3d.hpp
+/home/niner/catkin_ws/src/opencv_candidate/src/rgbd/samples/opencv2/calib3d/calib3d.hpp
+dirent.h
+-
+iostream
+-
+fstream
+-
+

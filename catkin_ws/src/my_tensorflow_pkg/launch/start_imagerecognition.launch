@@ -1,0 +1,15 @@
+    <launch> 
+        <arg name="rgb_image_topic" default="/head_camera/rgb/image_raw" />
+    
+        <node 
+        name="rostensorflow_imgae_recognition_node"
+        pkg="my_tensorflow_pkg"
+        type="Image_Recognition.py"
+        args=""
+        output="screen">
+    
+        <remap from="image" to="$(arg rgb_image_topic)" />
+    
+        </node>
+    
+   </launch> 

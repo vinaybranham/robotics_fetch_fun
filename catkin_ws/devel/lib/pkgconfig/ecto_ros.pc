@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/devel
+
+Name: ecto_ros
+Description: Description of ecto_ros
+Version: 0.4.8
+Cflags: -I/home/niner/catkin_ws/src/ecto_ros/include
+Libs: -L/home/niner/catkin_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/devel
+
+Name: fetch_social_gaze
+Description: Description of fetch_social_gaze
+Version: 0.0.8
+Cflags: -I/home/niner/catkin_ws/devel/include
+Libs: -L/home/niner/catkin_ws/devel/lib 
+Requires: 

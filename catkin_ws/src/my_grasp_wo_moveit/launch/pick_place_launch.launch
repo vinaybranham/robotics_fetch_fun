@@ -1,0 +1,20 @@
+<launch>
+  
+  <!--Start 3D object finder -->
+  <include file="$(find my_object_recognition_pkg)/launch/my_find_object_3d.launch" >
+  </include>
+
+  <!-- Start MoveIt -->
+  <include file="$(find fetch_moveit_config)/launch/move_group.launch" >
+    <arg name="info" value="true"/><!-- publish grasp markers -->
+  </include>
+
+  <!-- Start Perception -->
+  <node name="basic_grasping_perception" pkg="simple_grasping" type="basic_grasping_perception" >
+    <rosparam command="load" file="$(find my_grasp_wo_moveit)/config/simple_grasping.yaml" />
+  </node>
+
+  <!-- Drive to the table, pick stuff up -->
+  <node name="demo" pkg="my_grasp_wo_moveit" type="pick_place.py" output="screen" />
+
+</launch>

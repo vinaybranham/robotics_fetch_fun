@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/install
+
+Name: ecto_pcl
+Description: Description of ecto_pcl
+Version: 0.4.5
+Cflags: -I/home/niner/catkin_ws/install/include
+Libs: -L/home/niner/catkin_ws/install/lib 
+Requires: pcl_conversions sensor_msgs

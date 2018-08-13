@@ -1,0 +1,8 @@
+prefix=/home/niner/catkin_ws/install
+
+Name: my_motion_scripts
+Description: Description of my_motion_scripts
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/niner/catkin_ws/install/lib 
+Requires: 
